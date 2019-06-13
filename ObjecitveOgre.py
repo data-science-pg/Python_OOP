@@ -18,7 +18,7 @@ class Ogre:
 
 class OgreChild(Ogre):
     pass
-class OgreCocker(Ogre):
+class OgreCooker(Ogre):
     def __init__(self, name, surname, power, cookHat):
         super().__init__(self, name, surname)                             # constructor inheritence
         self.cookHat = cookHat
